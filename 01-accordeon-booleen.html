@@ -12,15 +12,15 @@
     <div class="accordeon">
       <section x-data="{IsOpen:false}">
         <button @click="IsOpen = ! IsOpen">bouton 1</button>
-        <p x-show="IsOpen">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem vel sequi aspernatur reiciendis facilis rerum, iste facere id similique suscipit, recusandae aliquid, ipsum atque autem accusamus iure temporibus praesentium voluptate.</p>
+        <p x-show="IsOpen" x-transition:enter.scale.0.origin.left.duration.1000ms x-transition:leave.scale.0.origin.left.duration.1000ms>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem vel sequi aspernatur reiciendis facilis rerum, iste facere id similique suscipit, recusandae aliquid, ipsum atque autem accusamus iure temporibus praesentium voluptate.</p>
       </section>
       <section x-data="{IsOpen:false}">
         <button @click="IsOpen = ! IsOpen">bouton 2</button>
-        <p x-show="IsOpen">Cum iste vel veritatis, ea delectus, iure magni atque maxime sapiente, deserunt corporis. Sed rem rerum corporis culpa blanditiis ea doloremque aliquam accusamus, harum est ratione atque nostrum voluptatem cupiditate!</p>
+        <p x-show="IsOpen" x-transition:enter.scale.0.origin.left.duration.1000ms x-transition:leave.scale.0.origin.left.duration.1000ms>Cum iste vel veritatis, ea delectus, iure magni atque maxime sapiente, deserunt corporis. Sed rem rerum corporis culpa blanditiis ea doloremque aliquam accusamus, harum est ratione atque nostrum voluptatem cupiditate!</p>
       </section>
       <section x-data="{IsOpen:false}">
         <button @click="IsOpen = ! IsOpen">bouton 3</button>
-        <p x-show="IsOpen">Repellat, dolorum quos? Nulla eum quidem sunt facere praesentium magnam tenetur commodi optio iusto ab dolorum voluptate consequuntur nihil, minima esse cupiditate, deleniti voluptatibus, quis nostrum blanditiis distinctio corrupti itaque!</p>
+        <p x-show="IsOpen" x-transition:enter.scale.0.origin.left.duration.1000ms x-transition:leave.scale.0.origin.left.duration.1000ms>Repellat, dolorum quos? Nulla eum quidem sunt facere praesentium magnam tenetur commodi optio iusto ab dolorum voluptate consequuntur nihil, minima esse cupiditate, deleniti voluptatibus, quis nostrum blanditiis distinctio corrupti itaque!</p>
       </section>
     </div>
   </body>

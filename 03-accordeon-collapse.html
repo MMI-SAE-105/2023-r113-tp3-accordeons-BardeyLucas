@@ -13,19 +13,19 @@
     <h1>Accordéon avec <code>x-collapse</code></h1>
         <div class="accordeon">
           <section>
-            <button :class="{ouvert:IsOpen, }" @click="IsOpen = 1">bouton 1</button>
+            <button :class="{ouvert:IsOpen == 1, }" @click="IsOpen = 1">bouton 1</button>
             <p x-show="IsOpen == 1" x-collapse>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Dolorem vel sequi aspernatur reiciendis facilis rerum, iste facere id similique suscipit, recusandae aliquid,
               ipsum atque autem accusamus iure temporibus praesentium voluptate.</p>
           </section>
           <section>
-            <button :class="{ouvert:IsOpen, }" @click="IsOpen = 2">bouton 2</button>
+            <button :class="{ouvert:IsOpen == 2, }" @click="IsOpen = 2">bouton 2</button>
             <p x-show="IsOpen == 2" x-collapse>Cum iste vel veritatis, ea delectus, iure magni atque
               maxime sapiente, deserunt corporis. Sed rem rerum corporis culpa blanditiis ea doloremque aliquam accusamus, harum
               est ratione atque nostrum voluptatem cupiditate!</p>
           </section>
           <section>
-            <button :class="{ouvert:IsOpen, }" @click="IsOpen = 3">bouton 3</button>
+            <button :class="{ouvert:IsOpen == 3, }" @click="IsOpen = 3">bouton 3</button>
             <p x-show="IsOpen == 3" x-collapse>Repellat, dolorum quos? Nulla eum quidem sunt facere
               praesentium magnam tenetur commodi optio iusto ab dolorum voluptate consequuntur nihil, minima esse cupiditate,
               deleniti voluptatibus, quis nostrum blanditiis distinctio corrupti itaque!</p>

@@ -10,9 +10,9 @@
   </head>
   <body>
     <h1>Accordéon horizontal</h1>
-    <ul id="accordeon" >
-      <li x-data="{isOpen: 0}">
-        <figure @click="isOpen = 1">
+    <ul id="accordeon" x-data="{isOpen: 0}">
+      <li :class="{actif:isOpen === 0,}">
+        <figure @click="isOpen = 0">
           <img src="https://picsum.photos/100?random=1" alt="" width="102">
           <figcaption>
             <h3>Lorem, ipsum dolor.</h3>
@@ -20,7 +20,7 @@
           </figcaption>
         </figure>
       </li>
-      <li x-data="{isOpen: 0}">
+      <li :class="{actif:isOpen === 1,}">
         <figure @click="isOpen = 1">
           <img src="https://picsum.photos/100?random=2" alt="" width="102">
           <figcaption>
@@ -29,8 +29,8 @@
           </figcaption>
         </figure>
       </li>
-      <li x-data="{isOpen: 0}">
-        <figure @click="isOpen = 1">
+      <li :class="{actif:isOpen === 2,}">
+        <figure @click="isOpen = 2">
           <img src="https://picsum.photos/100?random=3" alt="" width="102">
           <figcaption>
             <h3>Impedit, tempora suscipit!</h3>

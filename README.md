@@ -1,4 +1,4 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/SKyKHAPL)
 - nom : Bardey
 - prénom : Lucas
-- URL publique du site : https://github.com/MMI-SAE-105/2023-r113-tp3-accordeons-BardeyLucas
+- URL publique du site : https://magnificent-mandazi-ab9cff.netlify.app/

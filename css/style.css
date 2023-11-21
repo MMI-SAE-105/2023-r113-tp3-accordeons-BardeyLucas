@@ -86,3 +86,9 @@ P{
     /* pour éviter les "padding" par défaut */
     padding: 0;
 }
+#onglets>div{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+}

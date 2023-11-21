@@ -56,6 +56,7 @@ P{
 
 #accordeon li.actif {
     /* largeur de l'élément déplié 317px */
+    width: 317px;
 }
 
 #accordeon li figure {

@@ -41,7 +41,7 @@ P{
     /* pour cacher le contenu dépassant de l'élément */
     overflow: hidden;
     /* pour l'animation, transition sur width */
-    animation-duration: 5s;
+    transition: 1s ease-in-out;
     /* couleur de fond #eee */
     background-color: #eee;
     /* pour enlever les puces */

@@ -102,7 +102,8 @@ P{
     opacity: 1;
 }
 
-#onglets h1{
+#onglets button{
+    text-align: left;
     font-size: 20px;
     line-height: 40px;
     color: white;
@@ -110,8 +111,16 @@ P{
     margin-left: 0;
     padding-left: 10px;
     width: calc(100% - 40px);
+    border: none;
+    border-radius: 0;
 }
-#onglets h1.active {
+#onglets button:hover {
+    background-color: lightgray;
+}
+#onglets button:focus {
     color:dimgrey ;
     background-color: lightgray;
+}
+#onglets button:active {
+    background-color:darkgrey;
 }

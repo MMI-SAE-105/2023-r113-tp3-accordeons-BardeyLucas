@@ -87,18 +87,31 @@ P{
     /* pour éviter les "padding" par défaut */
     padding: 0;
 }
+
 #onglets{
     position: relative;
     width: 100%;
+    margin-left: 20px;
 }
-#onglets> {
-    position: absolute;
-    width: 100%;
-}
+
 #onglets>div>div>ul,#onglets>div>div>p{
     opacity: 0;
 }
 
 #onglets>div>div>ul.actif ,#onglets>div>div>p.actif {
     opacity: 1;
+}
+
+#onglets h1{
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    background-color: royalblue;
+    margin-left: 0;
+    padding-left: 10px;
+    width: calc(100% - 40px);
+}
+#onglets h1.active {
+    color:dimgrey ;
+    background-color: lightgray;
 }
